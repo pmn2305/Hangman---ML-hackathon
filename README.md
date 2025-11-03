@@ -44,20 +44,6 @@ The main notebook containing:
 
 This setup encourages efficient, non-redundant, and accurate guessing behavior.
 
----
-
-## 📊 Results Summary
-
-| Metric | Random Baseline | HMM Only | HMM + Q-Learning |
-|:-------|:----------------:|:---------:|:----------------:|
-| **Accuracy (%)** | 34.5 | 57.2 | **74.8** |
-| **Avg. Rounds per Word** | 8.6 | 6.1 | **4.3** |
-| **Avg. Reward per Episode** | +0.8 | +2.9 | **+4.7** |
-
-✅ **~17% improvement** over pure HMM  
-✅ **~40% improvement** over random guessing  
-
----
 
 ## 🧮 Exploration vs. Exploitation
 - Uses an **ε-greedy policy**:
@@ -93,9 +79,4 @@ This setup encourages efficient, non-redundant, and accurate guessing behavior.
 - The agent successfully demonstrates **data-driven reasoning**, **exploration–exploitation balance**, and **incremental learning** in a constrained problem space like Hangman.
 
 ---
-
-## 👩‍💻 Author
-**Prerana M.N**  
-Specialization: Artificial Intelligence & Machine Learning  
-📍 PES University  
-📅 Hackathon Submission – November 2025
+ 
